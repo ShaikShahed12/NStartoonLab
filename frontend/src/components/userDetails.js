@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../App.css";
 import UserHome from "./userHome";
-import { Navigate } from "react-router-dom";
 
 export default function UserDetails() {
   const [userData, setUserData] = useState(null);
